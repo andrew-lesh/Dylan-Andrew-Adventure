@@ -1,0 +1,36 @@
+﻿
+Ren'Py 6.99.9.1168 lint report, generated at: Thu Jul  5 21:06:41 2018
+
+game/script.rpy:6 Image confetti 1 uses file 'confetti.png', which is not loadable.
+
+game/script.rpy:6 Image confetti 1 uses file 'confetti.png', which is not loadable.
+
+game/script.rpy:542 Image bg daatalescreen uses file 'daatale-screen.png', which is not loadable.
+
+game/script.rpy:895 The image named 'snowblossom 1' was not declared.
+
+game/script.rpy:1863 The image named 'snowblossom 1' was not declared.
+
+game/script.rpy:4138 The image tag 'oage6' is not the prefix of a declared image, nor was it used in a show statement before this hide statement.
+
+game/script.rpy:6178 The image named 'field' was not declared.
+
+game/script.rpy:6189 The image named 'field' was not declared.
+
+game/script.rpy:6194 The image named 'inn' was not declared.
+
+game/script.rpy:6242 The image named 'inn' was not declared.
+
+
+Statistics:
+
+The game contains 1,290 dialogue blocks, containing 11,568 words and 62,947
+characters, for an average of 9.0 words and 49 characters per block.
+
+The game contains 21 menus, 151 images, and 58 screens.
+
+
+Remember to set config.developer to False before releasing.
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

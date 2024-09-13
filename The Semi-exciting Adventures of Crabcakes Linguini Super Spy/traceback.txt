@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 634, in script
+    jump win
+ScriptError: could not find label 'win'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 634, in script
+    jump win
+  File "/Users/admin/Downloads/renpy-6.99.9-sdk/renpy/ast.py", line 1520, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/admin/Downloads/renpy-6.99.9-sdk/renpy/script.py", line 843, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'win'.
+
+Darwin-15.3.0-x86_64-i386-64bit
+Ren'Py 6.99.9.1168
+The Semi-exciting Adventures of Crabcakes Linguini: Super Spy 0.0
