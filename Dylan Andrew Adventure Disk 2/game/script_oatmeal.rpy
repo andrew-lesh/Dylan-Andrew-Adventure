@@ -1520,6 +1520,33 @@ init:
         "court_dylan_think3"
         pause 0.35
         repeat
+        
+    image defe object:
+        "court_dylan_objection1"
+        pause 0.25
+        "court_dylan_objection2"
+        pause 0.2
+        "court_dylan_objection3"
+        pause 0.2
+        "court_dylan_objection4"
+        pause 0.2
+        "court_dylan_objection3"
+        pause 0.2
+        "court_dylan_objection4"
+        pause 0.2
+        "court_dylan_objection2"
+        
+    image defe point:
+        "court_dylan_objection2"
+        pause 0.2
+        "court_dylan_point2"
+        pause 0.2
+        "court_dylan_point3"
+        pause 0.2
+        "court_dylan_point2"
+        pause 0.2
+        repeat
+        
 
 scene bg court d
 show defe slam
@@ -1531,6 +1558,10 @@ dd "BEES"
 show defe paper
 dd "BEES"
 show defe think
+dd "BEES"
+show defe object
+dd "BEES"
+show defe point
 dd "BEES"
         
 scene bg court j
@@ -1550,4 +1581,5 @@ show pros nerv
 pp "BEES"
 show pros obj
 pp "BEES"
-
+show pros point
+pp "BEES"
